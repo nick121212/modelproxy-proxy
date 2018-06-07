@@ -1,4 +1,3 @@
-/// <reference types="express" />
 import { ExpressErrorMiddlewareInterface } from "routing-controllers";
 import { Response, Request } from "express";
 import { Tracer } from 'tracer';

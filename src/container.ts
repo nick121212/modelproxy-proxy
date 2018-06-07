@@ -90,16 +90,6 @@ proxy.loadConfig({
 
 proxy.loadConfig({
     "key": "tvmaze",
-    "title": "p-uc",
-    "engine": "fetch",
-    "mockDir": "/mocks/",
-    "states": {
-        "prod": "http://api.tvmaze.com",
-        "test": "http://api.tvmaze.com",
-        "dev": "http://api.tvmaze.com",
-        "stag": "http://api.tvmaze.com"
-    },
-    "state": "dev",
     "interfaces": [{
         "key": "singlesearch.shows",
         "title": "搜索单步电影数据",

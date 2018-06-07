@@ -1,4 +1,3 @@
-/// <reference types="express" />
 import { ModelProxy } from "modelproxy";
 import { Request, Response } from "express";
 /**

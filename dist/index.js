@@ -30,7 +30,7 @@ const app = routing_controllers_1.createExpressServer({
 });
 // app.use(MPMiddleware);
 // 启动应用
-app.listen(3000, "0.0.0.0", () => {
-    console.log("server listen on 3000");
+app.listen(3003, "0.0.0.0", () => {
+    console.log("server listen on 3003");
 });
 //# sourceMappingURL=index.js.map

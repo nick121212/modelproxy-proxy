@@ -8,12 +8,12 @@ let LogMiddleware = class LogMiddleware {
         this.$log = $log;
     }
     use(request, _response, next) {
-        // this.$log.warn("------------------------------");
-        // this.$log.log(request.url);
-        // this.$log.log(request.params);
-        // this.$log.log(request.body);
-        // this.$log.log(request.query);
-        // this.$log.log(request.rawHeaders.join(","));
+        this.$log.warn("------------------------------");
+        this.$log.log(request.url);
+        this.$log.log(request.params);
+        this.$log.log(request.body);
+        this.$log.log(request.query);
+        this.$log.log(request.rawHeaders.join(","));
         if (next) {
             next();
         }

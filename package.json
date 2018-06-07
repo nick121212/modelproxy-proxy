@@ -1,13 +1,13 @@
 {
-  "name": "proxy",
+  "name": "modelproxy-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "nick121212@126.com",
+  "license": "MIT",
   "dependencies": {
     "@types/express": "^4.11.1",
     "@types/superagent": "^3.8.0",
